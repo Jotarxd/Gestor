@@ -115,6 +115,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="FichaClinica\AgendarAtencion.aspx" />
+    <Content Include="FichaClinica\VistaMedico.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -127,6 +128,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Img\Icono_calendario.png" />
+    <Content Include="Img\OIP.jpg" />
     <Content Include="Img\rcm-80x36px.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -192,6 +194,13 @@
     </Compile>
     <Compile Include="FichaClinica\AgendarAtencion.aspx.designer.cs">
       <DependentUpon>AgendarAtencion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FichaClinica\VistaMedico.aspx.cs">
+      <DependentUpon>VistaMedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FichaClinica\VistaMedico.aspx.designer.cs">
+      <DependentUpon>VistaMedico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
