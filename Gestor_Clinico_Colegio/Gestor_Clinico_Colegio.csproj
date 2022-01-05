@@ -127,7 +127,9 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Img\CIE 10.png" />
     <Content Include="Img\Icono_calendario.png" />
+    <Content Include="Img\logorcm.jpg" />
     <Content Include="Img\OIP.jpg" />
     <Content Include="Img\rcm-80x36px.png" />
     <Content Include="Scripts\bootstrap.js" />

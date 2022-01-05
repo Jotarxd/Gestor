@@ -14,8 +14,8 @@
           <button class="w3-bar-item w3-button w3-xlarge"onclick="w3_close()">
               &times;
           </button>
-          <a href="FichaClinica/AgendarAtencion.aspx" class="w3-bar-item w3-button">Agendar Atencion</a>
-          <a href="#" class="w3-bar-item w3-button">Link 2</a>
+          <a href="FichaClinica/AgendarAtencion.aspx" class="w3-bar-item w3-button">Ficha medica</a>
+          <a href="FichaClinica/VistaMedico.aspx" class="w3-bar-item w3-button">Agenda</a>
           <a href="#" class="w3-bar-item w3-button">Link 3</a>
         </div>
 

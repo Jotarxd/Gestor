@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Agendar Atencion" Language="C#" AutoEventWireup="true"  CodeBehind="AgendarAtencion.aspx.cs" Inherits="Gestor_Clinico_Colegio.FichaClinica.AgendarAtencion" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"  CodeBehind="AgendarAtencion.aspx.cs" Inherits="Gestor_Clinico_Colegio.FichaClinica.AgendarAtencion" %>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -13,17 +13,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <title>RCM Salud</title>
+    <title>Ficha Medica</title>
     <link href="../Img/rcm-80x36px.png" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body>
-    <div id="mySidebar" class="w3-sidebar w3-bar-block w3-blue w3-card w3-animate-left" style="display: none">
-        <button class="w3-bar-item w3-button " onclick="w3_close()">
+    <div id="mySidebar" class="w3-sidebar w3-bar-block w3-blue w3-card w3-large w3-animate-left" style="display: none">
+        <button class="w3-bar-item w3-button w3-large " onclick="w3_close()">
             &times;
         </button>
-        <a class="w3-bar-item w3-button" href="../Default.aspx">Ficha medica</a>
+        <a class="w3-bar-item w3-button" href="../Default.aspx">Pagina Principal</a>
         <a class="w3-bar-item w3-button" href="VistaMedico.aspx">Agenda</a>
-        <a class="w3-bar-item w3-button" href="#">Link 3</a>
+        <a class="w3-bar-item w3-button" href="#">Salir</a>
     </div>
 
     <!-- Barra de horizontal -->
@@ -31,9 +31,9 @@
 
     <div id="main">
 
-        <div class="w3-blue ">
-            <button id="openNav" class="w3-button w3-blue " onclick="w3_open()">&#9776;</button>
-            <img alt="Imagen RCMSalud" src="Img/rcm-80x36px.png">
+        <div class="w3-blue w3-xlarge">
+            <button id="openNav" class="w3-button w3-blue w3-large" onclick="w3_open()">&#9776;</button>
+            <img alt="Imagen RCMSalud" src="../Img/rcm-80x36px.png">
         </div>
 
         <div class="w3-container">
