@@ -128,10 +128,15 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Img\CIE 10.png" />
+    <Content Include="Img\derivacion.png" />
+    <Content Include="Img\examenes.png" />
     <Content Include="Img\Icono_calendario.png" />
-    <Content Include="Img\logorcm.jpg" />
-    <Content Include="Img\OIP.jpg" />
+    <Content Include="Img\imprimir.png" />
+    <Content Include="Img\Licencia.png" />
     <Content Include="Img\rcm-80x36px.png" />
+    <Content Include="Img\receta.png" />
+    <Content Include="Img\telemedicina.png" />
+    <Content Include="Img\user-icon.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />

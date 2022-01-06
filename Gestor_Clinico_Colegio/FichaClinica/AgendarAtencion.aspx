@@ -15,6 +15,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <title>Ficha Medica</title>
     <link href="../Img/rcm-80x36px.png" rel="shortcut icon" type="image/x-icon" />
+
 </head>
 <body>
     <div id="mySidebar" class="w3-sidebar w3-bar-block w3-blue w3-card w3-large w3-animate-left" style="display: none">
@@ -67,7 +68,7 @@
             <div class="container align-self-lg-center">
 
               <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Ficha</button>
-                <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-fade" id="myModal" role="dialog">
                     <div class="modal-dialog">
                         <div class="modal-content">
 
