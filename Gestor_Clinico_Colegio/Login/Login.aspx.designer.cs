@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Gestor_Clinico_Colegio.FichaClinica
+namespace Gestor_Clinico_Colegio.Login
 {
 
 
-    public partial class AgendarAtencion
+    public partial class Login
     {
     }
 }
