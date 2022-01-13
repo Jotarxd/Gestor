@@ -114,6 +114,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="FichaClinica\Agenda.aspx" />
     <Content Include="FichaClinica\AgendarAtencion.aspx" />
     <Content Include="FichaClinica\VistaMedico.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -196,6 +197,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FichaClinica\Agenda.aspx.cs">
+      <DependentUpon>Agenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FichaClinica\Agenda.aspx.designer.cs">
+      <DependentUpon>Agenda.aspx</DependentUpon>
     </Compile>
     <Compile Include="FichaClinica\AgendarAtencion.aspx.cs">
       <DependentUpon>AgendarAtencion.aspx</DependentUpon>

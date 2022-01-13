@@ -1,15 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="VistaMedico.aspx.cs" Inherits="Gestor_Clinico_Colegio.FichaClinica.VistaMedico" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Agenda.aspx.cs" Inherits="Gestor_Clinico_Colegio.FichaClinica.Agenda" %>
 
-<!DOCTYPE html>
-<html lang="es">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Agenda Medica</title>
-    <link href="../Img/rcm-80x36px.png" rel="shortcut icon" type="image/x-icon" />
+
+
+
+
+<asp:Content ContentPlaceHolderID="contenido" runat="server" ID="contenido" >
     <style>
         body{
             left:100%;
@@ -87,38 +82,7 @@
         }
     </style>
 
-</head>
-<body>
-
-    <div id="mySidebar" class="w3-sidebar w3-bar-block w3-card w3-large w3-animate-left" style="background-color:cornflowerblue ;display:none">
-        <button class="w3-bar-item w3-button w3-large " onclick="w3_close()">
-            &times;</button>
-        <a class="w3-bar-item w3-button" href="../Default.aspx">Pagina Principal</a>
-        <a class="w3-bar-item w3-button" href="AgendarAtencion.aspx">Ficha</a>
-        <a class="w3-bar-item w3-button" href="../Login/Login.aspx">Salir</a>
-    </div>
-
-    <div id="main">
-         <div class="w3-xlarge" style="background-color:cornflowerblue">
-            <button id="openNav" class="w3-button w3-blue w3-large" style="background-color:cornflowerblue" onclick="w3_open()">&#9776;</button>
-            <img alt="Imagen RCMSalud" src="../Img/rcm-80x36px.png">
-        </div>
-
-        <script>
-            function w3_open() {
-                document.getElementById("main").style.marginLeft = "15%";
-                document.getElementById("mySidebar").style.width = "15%";
-                document.getElementById("mySidebar").style.display = "block";
-                document.getElementById("openNav").style.display = 'none';
-            }
-            function w3_close() {
-                document.getElementById("main").style.marginLeft = "0%";
-                document.getElementById("mySidebar").style.display = "none";
-                document.getElementById("openNav").style.display = "inline-block";
-            }
-        </script>
-        
-        <div style="margin-top:1%"> 
+    <div style="margin-top:1%"> 
             <header style="margin-left:1%" >
                 Agenda
             </header>
@@ -256,11 +220,4 @@
                 </div>
             </div>
         </div>
-           
-        <div class="footer">
-            <p>&copy; all Copyrigth reserved - Mi aplicación ASP.NET By: Juan Uribe </p>
-        </div>
-
-    </div>
-</body>
-</html>
+</asp:Content>
